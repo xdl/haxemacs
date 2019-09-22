@@ -27,6 +27,10 @@ Or if using `use-package`:
     
 ### Project Steup
 
+Make sure the compiler service is running on port 6000:
+
+    haxe -v --wait 6000
+
 Create a `.haxe-root` file in the source directory, pointing to the `build.hxml` file.
 
 e.g. in `/Source/.haxe-root`:
